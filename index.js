@@ -22,7 +22,7 @@ function displayTime() {
 
     let time = hourOfDay + ":" + minutes + ":" + seconds;
 
-    document.getElementById('Clock').innerHTML = time + " " + today + " " + months + " " + year; 
+    document.getElementById('Clock').innerHTML = time + "\n" + today + " " + months + " " + year; 
 
 }
 displayTime();
